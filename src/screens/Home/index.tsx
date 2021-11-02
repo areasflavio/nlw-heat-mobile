@@ -14,9 +14,9 @@ const Home: React.FC = () => {
       <Header />
 
       <MessagesList />
-      {/* <SignInBox /> */}
+      <SignInBox />
 
-      <SendMessageForm />
+      {/* <SendMessageForm /> */}
     </View>
   );
 };
